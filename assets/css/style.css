@@ -3,16 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* apply styles to <body> */
+
 body {
-    color:#39a6b2;
+    color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
-/* apply styles to <header> */
+
+/* Apply these styles to the header */
 header {
-    padding: 20px 35px;
-    background-color:#39a6b2;
+    padding: 25px 35px;
+    background-color: #39a6b2;
 }
+
+/* Apply these styles to h1 in the header */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -20,46 +23,63 @@ header h1 {
     margin: 0;
     display: inline;
 }
+
+/* Apply these styles to the links in the header */
 header a {
     text-decoration: none;
     color: #fce138;
 }
+
+/* Apply these styles to the nav section containing the links */
 header nav {
     float: right;
     margin: 7px 0;
 }
+
+/* Arrange the links horizontally */
 header nav ul li {
     display: inline;
 }
+
+/* Apply these styles to the navigation links */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
-/* apply styles to <footer> */
+
+/* Apply these styles to the footer */
 footer {
     background: #fce138;
-    width: 100%;
+    width:100%;
     padding: 40px 35px;
 }
+
+/* Apply these styles to the heading in the footer */
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
+    display: inline;
 }
-footer div{
+
+/* Arrange the div aka privacy policy and copyright on the right of the page */
+footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
+
+/* Apply this style to the privacy policy link */
 footer a {
     color: #024e76;
 }
+
 section {
     padding: 60px;
 }
-/* Hero Styles Start */
+
+/* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -67,26 +87,27 @@ section {
     background-position: center;
     position: relative;
 }
+
 .hero-form {
-    border: 3px solid #024376;
+    border: solid 3px #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
     position: absolute;
-    bottom: 60px;
-    right: 170px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
+    right: 140px;
+    bottom: 120px;
 }
+
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
+
 .hero-form p {
     margin: 5px 0 15px 0;
 }
+
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -94,11 +115,13 @@ section {
     font-size: 16px;
     color: #024e76;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 15px
 }
+
 .hero-form label {
     margin: 0 5px;
 }
+
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -106,174 +129,155 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* Hero Styles End */
+/* Hero Style End */
 
-/* Homepage Hero */
-.hero {
-    margin: 20px;
-    background-color: white;
-    font-size: 20px;
-    color: blue;
-  }
-  /* Secondary Page Hero */
-  .hero-secondary {
-    margin: 20px;
-    background-color: black;
-    font-size: 20px;
-    color: red;
-  }
-/* Intro Styles Begins */
+/* Steps Start */
 .intro {
     text-align: center;
 }
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
-    display: inline-block;
-  }
-.intro p {
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 100%;
-    font-size: 20px
-    margin: 0 auto;
-}
-.steps {
-    text-align: center;
-    background: #fce138;
-}
-.steps h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #39a6b2;
-    display: inline-block;
-  }
+
 .section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    display: inline-block;
 }
+
 .primary-border {
     border-color: #fce138;
 }
+
 .secondary-border {
-    border-color: #39a6B2;
+    border-color: #39a6b2;
 }
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
 .steps div {
     margin-bottom: 80px;
 }
+
 .steps img {
     width: 15%;
     margin: 10px 0;
 }
+
 .steps h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
 }
+
 .steps p {
-    color: #39a6b2
+    color: #39a6b2;
     font-size: 23px;
 }
+
 .steps span {
     font-size: 38px;
 }
-/* Intro Styles Ends */
 
-/* Trainers Styles Begins */
+/* Steps Style End */
+
+/* Trainer Style Start */
+
 .trainers {
     text-align: center;
 }
+
 .trainer {
     width: 900px;
-    margin 0 auto 30px auto;
+    margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
     overflow: auto;
 }
+
 .trainer img {
     width: 35%;
     float: left;
 }
+
 .trainer-bio {
     padding: 35px;
     float: left;
     width: 65%;
 }
+
 .text-left {
     text-align: left;
 }
+
 .text-right {
     text-align: right;
 }
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
 }
+
 .trainer-bio h4 {
     font-weight: lighter;
     font-size: 26px;
     margin-bottom: 25px;
 }
+
 .trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
 }
-/* Trainers Styles Ends */
 
-/* Reach Out Styles Begins */
-
-.section-title {
-    font-size: 55px;
-    display: inline-block;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;
-    color: #024e76;
-}
+/* Begin Styling the Reach Out Section */
 .contact {
     text-align: center;
     background: #024e76;
 }
+
 .contact h2 {
     color: #fce138;
 }
+
 .contact-info iframe {
     width: 400px;
     height: 400px;
 }
+
 .contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: white; 
+    color: white;
 }
+
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
-  }
-  
-  .contact-info p, .contact-info address {
+}
+
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
-  }
-  
-  .contact-info a {
-    color: #fce138;
-  }
+}
 
-/* Reach Out Styles Ends */
+.contact-info a {
+    color: #fce138;
+}
+/* Reach Out Styles End */
