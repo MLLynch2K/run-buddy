@@ -13,15 +13,17 @@ body {
 header {
     padding: 25px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-self: space-between;
+    flex-wrap: wrap;
 }
 
 /* Apply these styles to h1 in the header */
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-    display: inline;
 }
 
 /* Apply these styles to the links in the header */
@@ -32,7 +34,6 @@ header a {
 
 /* Apply these styles to the nav section containing the links */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
