@@ -37,16 +37,19 @@ header nav {
     margin: 7px 0;
 }
 
-/* Arrange the links horizontally */
-header nav ul li {
-    display: inline;
+/* Apply these styles to the Flexbox */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
-
 /* Apply these styles to the navigation links */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* Apply these styles to the footer */
