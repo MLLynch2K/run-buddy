@@ -232,7 +232,7 @@ section {
 
 /* Trainer Style Start */
 .trainer {
-    margin: 0 auto 20px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
     flex: 1
