@@ -147,7 +147,6 @@ p{
 }
 /* Hero Style End */
 
-
 /* What We Do Style */
 .intro p{
     line-height: 1.7;
@@ -403,7 +402,7 @@ p{
     background: lightyellow;
     width: 80%;
     display: grid;
-    /* repeat(iterator, size)*/
+    /* repeat(iterator, size) */
     grid-template-columns: 1fr repeat(2, 4fr);
     grid-template-rows: repeat(5, 1fr) 2fr;
     border: 2px solid var(--secondary-color);
@@ -417,6 +416,7 @@ p{
     justify-content: center;
     text-align: center;
 }
+
 /* specific match */
 .service-grid-item.basic{
     grid-column: 2 / span 1;
@@ -485,7 +485,7 @@ p{
     transform: rotate(-42deg);
 }
 
-/* Media Query for smaller desktop screens and smaller*/
+/* Media Query for 980 smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -524,8 +524,7 @@ p{
         flex: 1 100%;
     }
 
-
-/* Media Query for tablets and smaller screens*/
+/* Media Query for 768 tablets and smaller screens */
 @media screen and (max-width: 768px){
     section {
         padding: 30px 15px;
@@ -580,7 +579,7 @@ p{
     }
 }
 
-/* Media query for mobile phones and smaller */
+/* Media query for 575 mobile phones and smaller */
 @media screen and (max-width: 575px){
     .hero-form button {
         width: 100%;
@@ -603,5 +602,4 @@ p{
     .contact-form {
         order: 3;
     }
-    
 }
